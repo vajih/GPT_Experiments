@@ -18,7 +18,7 @@ def chat_with_gpt(prompt, max_tokens=100):
     return response.choices[0].text.strip()
 
 # Provide the initial prompt
-prompt = input("Enter a prompt: ")
+prompt = input("Enter an interesting prompt: ")
 
 # Chat with GPT using the prompt
 response = chat_with_gpt(prompt)
